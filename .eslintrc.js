@@ -11,10 +11,8 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
   ],
-  plugins: [
-    'prettier'
-  ],
-  // add your custom rules here
+  plugins: ['prettier'],
   rules: {
+    "no-unused-vars": "off"
   }
 }

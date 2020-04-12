@@ -1,13 +1,13 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
+  <v-layout align-center column justify-center>
+    <v-flex md6 sm8 xs12>
       <div class="text-center">
         <logo />
         <vuetify-logo />
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          Hello World
         </v-card-title>
         <v-card-text>
           <p>
